@@ -42,3 +42,21 @@ console.log(`A multiplicação dos números ${num1} + ${num2} é igual a ${mult}
 //divisão
 let div = num1 / num2
 console.log(`A divisão dos números ${num1} + ${num2} é igual a ${div}`);
+
+//modulo
+
+let modulo =  num1 % num2
+console.log(`O modulo dos números ${num1} + ${num2} é igual a ${modulo}`);
+
+
+
+
+
+//Calculando a circunferencia
+
+const pi = 3.1415
+let raio = Number(prompt('Informe um número: '))
+
+comprimento = 2 * pi * raio;
+
+console.log(comprimento)
