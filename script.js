@@ -15,30 +15,30 @@ const age = 22
 
 console.log("Meu nome é  " + nameF  +  lastName + " Tenho " + age + "de idade")
 
-alert("Meu nome é  " + nameF  +  lastName + " Tenho " + age + "de idade")
+//alert("Meu nome é  " + nameF  +  lastName + " Tenho " + age + "de idade")
 
 //Interpolação
-console.log(`Meu nome é ${nameF} ${lastName}, teno ${age} de idade!`)
+console.log(`Meu nome é ${nameF} ${lastName}, tenho ${age} de idade!`)
 
 
 //Operadores aritmétricos
 
-let num1 = 5
-let num2 = 2
+let num1 = Number(prompt('Informe um número: '))
+let num2 = Number(prompt('Informe um número: '))
 
 
 // Soma
 let soma = num1 + num2
-console.log(soma)
+console.log(`A soma dos números ${num1} + ${num2} é igual a ${soma}`);
 
 //Sub
 let sub = num1 - num2
-console.log(sub)
+console.log(`A subtração dos números ${num1} + ${num2} é igual a ${sub}`);
 
 //Multiplicação
 let mult = num1 * num2
-console.log(mult)
+console.log(`A multiplicação dos números ${num1} + ${num2} é igual a ${mult}`);
 
 //divisão
 let div = num1 / num2
-console.log(div)
+console.log(`A divisão dos números ${num1} + ${num2} é igual a ${div}`);
