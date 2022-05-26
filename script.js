@@ -47,16 +47,18 @@ console.log(`A divisão dos números ${num1} + ${num2} é igual a ${div}`);
 
 let modulo =  num1 % num2
 console.log(`O modulo dos números ${num1} + ${num2} é igual a ${modulo}`);
-
+8
 
 
 
 
 //Calculando a circunferencia
 
-const pi = 3.1415
-let raio = Number(prompt('Informe um número: '))
+//const pi = 3.1415
+const pi = Math.PI //MATH
+let raio = parseFloat(Number(prompt('Informe um número: ')))
 
 comprimento = 2 * pi * raio;
 
-console.log(comprimento)
+console.log(`O circulo tem raio ${raio} e seu comprimento é ${comprimento}`)
+console.log(pi)
