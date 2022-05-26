@@ -23,3 +23,22 @@ console.log(`Meu nome é ${nameF} ${lastName}, teno ${age} de idade!`)
 
 //Operadores aritmétricos
 
+let num1 = 5
+let num2 = 2
+
+
+// Soma
+let soma = num1 + num2
+console.log(soma)
+
+//Sub
+let sub = num1 - num2
+console.log(sub)
+
+//Multiplicação
+let mult = num1 * num2
+console.log(mult)
+
+//divisão
+let div = num1 / num2
+console.log(div)
