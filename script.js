@@ -62,3 +62,13 @@ comprimento = 2 * pi * raio;
 
 console.log(`O circulo tem raio ${raio} e seu comprimento é ${comprimento}`)
 console.log(pi)
+
+
+//DESAFIO
+
+const frase = "Amo violino"
+const frase2 = "Mas também amo piano"
+
+let verificar = frase === frase2;
+
+console.log(verificar)
