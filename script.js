@@ -74,7 +74,7 @@ const frase2 = "Mas também amo piano"
 let verificar = frase === frase2;
 
 console.log(verificar)
-*/
+
 
 //aula - Lógica de Programação
 
@@ -86,16 +86,29 @@ if (estadoDeNasc === 'Pernambuco'){
     console.log('Não és... :(')
 }
 
-//Desafio
+//Desafio 01
 
 let numero = parseFloat(Number(prompt('Informe um número: ')));
 
 if (numero <= 10){
     console.log('Número é menor que 10');
 }else if (numero === 10){ 
-    console.log('O número é igual que 10');
+    console.log('Número é menor que 10');
 }else{
     console.log('O número é maior que 10');
 }
+*/
 
+//Desafio 02
 
+let numUm = parseFloat(Number(prompt('Informe um número: ')));
+let numDois = parseFloat(Number(prompt('Informe um número: ')));
+let soma = numUm + numDois;
+
+if(soma > 100){
+    console.log('Número é MAIOR!! ');
+}else if(soma == 100){
+    console.log('BINGO, deu 100');
+}else{
+    console.log('Número é menor que 100');
+}
