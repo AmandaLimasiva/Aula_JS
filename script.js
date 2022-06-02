@@ -92,6 +92,8 @@ let numero = parseFloat(Number(prompt('Informe um número: ')));
 
 if (numero <= 10){
     console.log('Número é menor que 10');
+}else if (numero === 10){ 
+    console.log('O número é igual que 10');
 }else{
     console.log('O número é maior que 10');
 }
