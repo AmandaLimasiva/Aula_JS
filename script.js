@@ -7,6 +7,8 @@
 
 //credito? - true ou false 
 
+/*
+
 const nameF = 'Amanda'
 
 const lastName = 'Lima'
@@ -72,3 +74,26 @@ const frase2 = "Mas também amo piano"
 let verificar = frase === frase2;
 
 console.log(verificar)
+*/
+
+//aula - Lógica de Programação
+
+let estadoDeNasc = prompt('Qual estado você nasceu? :/ ');
+
+if (estadoDeNasc === 'Pernambuco'){
+    console.log('És Pernambucano')
+}else{
+    console.log('Não és... :(')
+}
+
+//Desafio
+
+let numero = parseFloat(Number(prompt('Informe um número: ')));
+
+if (numero <= 10){
+    console.log('Número é menor que 10');
+}else{
+    console.log('O número é maior que 10');
+}
+
+
