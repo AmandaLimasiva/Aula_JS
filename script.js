@@ -100,7 +100,7 @@ if (numero <= 10){
 */
 
 //Desafio 02
-
+/*
 let numUm = parseFloat(Number(prompt('Informe um número: ')));
 let numDois = parseFloat(Number(prompt('Informe um número: ')));
 let soma = numUm + numDois;
@@ -134,3 +134,20 @@ switch(idade){
     default:
         console.log("Você não pode competir")
 }
+
+*/
+
+
+//Arrays
+
+const marcaCarro = ["Ford", "Hyundai", "Fiat", "BMW", "Etios"];
+
+console.log(marcaCarro[0]);
+
+console.log(marcaCarro.length)//Conta os elementos do Array
+
+//PUSH - Adiciona elemento no final do Array
+
+marcaCarro.push("Porsche")
+
+console.log(marcaCarro.length)
