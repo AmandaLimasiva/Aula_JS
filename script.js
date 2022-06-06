@@ -112,3 +112,25 @@ if(soma > 100){
 }else{
     console.log('Número é menor que 100');
 }
+
+
+//Switch
+
+const idade = 5;
+
+switch(idade){
+    case 5:
+        console.log("Você é infantil A");
+        break;
+    case 8: 
+        console.log("você infantil B")
+        break;
+    case 12: 
+        console.log("você infanjuvenil A");
+        break; //PARA
+    case 14:
+        console.log("você infanjuvenil B");
+        break;
+    default:
+        console.log("Você não pode competir")
+}
