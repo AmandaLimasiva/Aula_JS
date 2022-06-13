@@ -22,6 +22,8 @@ do{
 }while(numero !== -1)
 */
 
+
+//Funcion - metodo 
 function SomaDoisNum(n1, n2, n3){
     return n1 + n2 + n3
 }
